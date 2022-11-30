@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid two</title>
+    <style>
+        .container-grid{
+            border: 3px solid transparent;
+            width: 70%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(2,1fr) ;
+            margin: auto;
+            margin-top: 50px;
+            grid-gap: 30px;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+        }
+        .container-grid>div{
+            border: 3px solid transparent;
+            width: 90%;
+            height: 160px;
+            background-color: #217867;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

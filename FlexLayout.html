@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Layout</title>
+    <style>
+        .card_div{
+            border: 3px solid transparent;
+            width:75%;          
+            height: auto;
+            margin: auto;
+            margin-top:20px ;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+           
+            border-radius: 10px;
+        }
+        .sub_card{
+            border: 2px solid transparent;
+            width: 90%;
+            height: 150px;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        }
+        .title_price{
+            border: 2px solid transparent;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between
+
+        }
+        .price{
+            font-size: 22px;
+            color: rgb(151, 134, 42);
+
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="card_div">
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Cappuccino</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Americano</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Espresso</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Macchiato</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Mocha</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Coffee Latte</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Piccolo Latte</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Ristretto</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="sub_card">
+            <div class="title_price">
+                <h2>Affogato</h2>
+                <p class="price">
+                    $49
+                </p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

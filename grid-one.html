@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid One</title>
+    <style>
+        .container{
+            border:2px solid transparent;
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(1,1fr);
+
+        }
+        .container>div{
+            border: 2px solid transparent;
+            width: 90%;
+            height:auto; 
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        }
+        img{
+            width: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .content{
+            margin: 0px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2022/08/20/22/25/sea-7400124_640.jpg" alt="">
+            <div class="content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                    <p>Lorem.</p>
+            </div>
+        </div>
+        <div> <img src="https://cdn.pixabay.com/photo/2021/11/24/17/39/seal-6821775__340.jpg" alt="">
+        <div class="content">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                    <p>Lorem.</p>
+
+        </div>
+        </div>
+        <div> <img src="https://cdn.pixabay.com/photo/2022/11/12/05/00/flower-7586222__340.jpg" alt="">
+        <div class="content">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            <p>Lorem.</p>
+
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>

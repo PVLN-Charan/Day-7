@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Three</title>
+    <style>
+        .container{
+            border: 3px solid transparent;
+            width: 70%;
+            height: auto;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+            display: grid;
+            grid-template-areas: 
+            "H H H H H H H H H H H H"
+            "L L L R R R R R R R R R";
+            grid-gap: 20px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+            border-radius: 10px;
+        }
+        .header{
+            border: 3px solid transparent;
+            width: 100%;
+            height: 120px;
+            display: grid;
+            grid-area: H;
+            background-color: #ff2b2a;
+            border-radius: 5px;
+
+        }
+        
+        .left{
+            border: 3px solid transparent;
+            height: 500px;
+            display: grid;
+            grid-area:L;
+            border-radius: 5px;
+            background-color: #56d400;
+        }
+        .right{
+            border: 3px solid transparent;
+            height: 500px;
+            display: grid;
+            grid-area:R;
+            border-radius: 5px;
+            background-color: #217867;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+        
+    </div>
+    
+</body>
+</html>
